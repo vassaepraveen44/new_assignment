@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_assignment/providers/postprovider.dart';
 import 'package:provider/provider.dart';
 
 import 'providers/loginprovider.dart';
@@ -9,6 +10,7 @@ void main() {
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => Loginprovider()),
+      ChangeNotifierProvider(create: (_)=>Postprovider()),
       
       // ChangeNotifierProvider(create: (_) => AuthProvider()..loadAccessToken()),
 

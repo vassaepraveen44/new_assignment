@@ -7,7 +7,7 @@ class AppColors {
   static const Color textHeadingColor = Color(0xFF2D375B);
   static const Color textColor = Color(0xFF5b5b5b);
   static const Color errorColor = Color(0xFFFF0000);
-  static const Color backgroundColor = Colors.white;
+  static const Color screenbackgroundColor = Color(0xFF040c23);
   static const Color surfaceColor = Color(0xFF84b1e1);
   static const Color dividerColor = Color(0xFFBDBDBD); // Example divider color
   static const double popUpWidthPercentage = 0.1;
