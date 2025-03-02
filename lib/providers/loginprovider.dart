@@ -4,4 +4,9 @@ class Loginprovider extends ChangeNotifier{
   TextEditingController emailcontroller = TextEditingController();
   TextEditingController passwordcontroller = TextEditingController();
   bool isshow = false;
+
+  void passwordSet() {
+    isshow = !isshow;
+    notifyListeners();
+  }
 }
