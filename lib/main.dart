@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:new_assignment/providers/postprovider.dart';
 import 'package:provider/provider.dart';
 
+import 'providers/image_provider.dart';
 import 'providers/loginprovider.dart';
 import 'screens/login_screen.dart';
+import 'screens/post_list_screen.dart';
 import 'screens/post_screen.dart';
 
 void main() {
@@ -11,6 +13,8 @@ void main() {
     providers: [
       ChangeNotifierProvider(create: (_) => Loginprovider()),
       ChangeNotifierProvider(create: (_)=>Postprovider()),
+              ChangeNotifierProvider(create: (_) => ImageProviderModel()),
+
       
       // ChangeNotifierProvider(create: (_) => AuthProvider()..loadAccessToken()),
 

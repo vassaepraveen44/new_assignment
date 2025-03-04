@@ -14,5 +14,6 @@ class AppColors {
   static const double upDateDailogWidth = 500;
   static const String iosVersion = "5.0";
   static const String androidVersion = "0.0.1";
+  static const Color likeColor = Color(0xFF85b2e2);
   // Add more colors as needed
 }
